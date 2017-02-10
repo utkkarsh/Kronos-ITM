@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Coda');
+
+/* unvisited link */
+a:link {
+    color: #347355;
+}
+
+/* visited link */
+a:visited {
+    color: #347674;
+}
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: #347674;
+}
+*
+body{line-height: 1.5;}
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #18191d;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.message
+{
+
+	padding-top: 20px;
+	text-align: center;
+}
+.message span
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px;
+	color: #e1e1e1;
+}
+.message span b
+{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+header
+{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0.74) 46%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.74) 46%,rgba(0,0,0,0) 100%); 
+    background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.74) 46%,rgba(0,0,0,0) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); 
+    position:fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    padding: 8px 3%;
+    padding-top: 15px;
+}
+a
+{
+    text-decoration: none;
+}
+.brand-logo-wrapper
+{
+    display: inline-block;
+}
+.brand-logo-wrapper img
+{
+  width:175px;
+}
+.nav-bar-wrap
+{
+    padding-top: 4px;
+    float: right;
+    display:inline-block;
+}
+.nav-bar li
+{
+    margin-left: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Coda',sans-serif;
+    display: inline-block;
+}
+.register:hover
+{
+    color: red;
+    border-bottom: 3px solid red;
+}
+.nav-bar li:hover
+{
+    border-bottom: 3px solid white;
+}
+/*Contact*/
+.venue
+{    
+    color: white;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.about
+{    
+    background-color: rgb(216, 59, 58);
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.venue-details.midnight-blue-3 {
+    background-color: #18191d;
+}
+.venue-details {
+    position: relative;
+    width: 50%;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+}
+.map-box{
+    background-color: #18191d;
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 50%;
+    height: auto;
+    margin-left: 50%;
+    float: right;
+}
+.map {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+}
+.w-widget-map {
+    width: 100%;
+    height: 100%;
+}
+.w-widget {
+    position: relative;
+}
+.floated-right-details-box {
+    width: 80%;
+}
+.header-box.left-justified {
+    padding-right: 20px;
+    text-align: left;
+}
+.header-box {
+    position: relative;
+    text-align: center;
+}
+.venue-details-item {
+    margin-top: 20px;
+    margin-bottom: 30px;
+        font-family: 'Raleway', sans-serif;
+}
+.venue-details-item img
+{
+    width: 35px;
+}
+
+.more-info-box {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.w-clearfix:before, .w-clearfix:after {
+    content: " ";
+    display: table;
+}
+Pseudo ::after element
+.w-clearfix:after {
+    clear: both;
+}
+.w-clearfix:before, .w-clearfix:after {
+    content: " ";
+    display: table;
+}
+.map.w-widget.w-widget-map iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header-section {
+    padding-top: 5%;
+    color: white;
+    padding-bottom: 3%;
+    background-image: url(../assests/images/map-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-section-about {
+    padding-top: 5%;
+    color: white;
+    padding-bottom: 3%;
+    background-image: url(../assests/images/events.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.w-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+.header-box h2
+{
+    font-size: 52px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.header-box {
+    position: relative;
+    text-align: center;
+}
+.mini-title {
+    position: relative;
+    z-index: 1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    line-height: 19px;
+    font-weight: 700;
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+}
+.paragraph.small
+{
+    display: inline-block;
+    margin-left: 2%;
+    font-size: 17px;
+        font-family: 'Raleway', sans-serif;
+}
+.underline.crimson {
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+}
+.underline {
+    display: inline-block;
+    width: 270px;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: #000000;
+}
+.social-icons-box
+{
+ margin-top: 12px;   
+}
+.social-icons-box a
+{
+    padding-top: 18px;
+    margin-right: 15px;
+}
+#preloader 
+{ 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    z-index: 99; 
+    width: 100%; 
+    height: 100%;  
+    background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top, #000000 70%, #5e0000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #000000 70%,#5e0000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #000000 70%,#5e0000 100%); 
+
+}
+#status
+{
+     width:200px;
+    height:500px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    margin:-100px 0 0 -100px; 
+}
+.cpright
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5%;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: 'Coda', sans-serif;
+    z-index: 999;
+}
+.cpright a
+{
+    text-decoration: underline;
+}
+.cpright a:link
+{
+    color: white;
+}
+.cpright a:active
+{
+    color: white;
+}
+.cpright a:visited
+{
+    color: white;
+}
+.ham
+{
+    border: none;
+}
+.side-nav img
+{
+    width: 50%;
+    display: inline-block;
+    margin-top: 200%;
+}
+.side-nav--right img
+{
+    float: right;
+}
+.brand-logo-wrapper-m, .ham, .side-navi
+{
+    display: none;
+}
+@media(orientation:portrait)
+{
+.side-nav img
+{
+ margin-top: 725%;   
+}
+.venue
+{    
+    color: white;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.about
+{    
+    background-color: rgb(216, 59, 58);
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.venue-details.midnight-blue-3 {
+    background-color: rgba(171, 51, 51, 0);
+}
+.venue-details {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 60%;
+    padding-bottom: 0%;
+    padding-left: 10%;
+}
+.map-box{
+    background-color: #18191d;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 80%;
+    margin-left: 0px;
+       
+}
+.map {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 55%;
+}
+.more-info-box {
+   font-size: 31px;  text-align: justify;
+}
+.paragraph.small
+{
+    
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+}
+@media (orientation: portrait) {
+    .brand-logo-wrapper
+    {
+        display: none;
+    }
+    .brand-logo-wrapper-m
+    {
+        text-align: center; 
+        display: block;
+    }
+    .brand-logo-wrapper-m img
+    {
+      width: 50%;  
+    }
+    .nav-bar
+    {
+     display: none;
+    }   
+    .ham
+    {
+        z-index: 999;
+        position: absolute;
+        top:0;
+        right: 0;
+        float: right;
+        display: inline-block;
+        padding: 32px 20px;
+        cursor: pointer;
+        transition-property: opacity, filter;
+        transition-duration: 0.15s;
+        transition-timing-function: linear;
+        font: inherit;
+        color: inherit;
+        text-transform: none;
+        background-color: transparent;
+        border: 0;
+        margin: 0;
+        overflow: visible; 
+    }
+    .ham:hover 
+    {
+        opacity: 0.7;
+    }
+    .hamburger-box 
+    {
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        position: relative; 
+    }
+    
+    .ham-line {
+  display: block;
+  top: 50%;
+  margin-top: 8px; }
+  .ham-line, .ham-line::before, .ham-line::after {
+    width: 60px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
+  .ham-line::before, .ham-line::after {
+    content: "";
+    display: block; }
+    
+    .hamburger--elastic .ham-line {
+  top: 2px;
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  .hamburger--elastic .ham-line::before {
+    top: 16px;
+    transition: opacity 0.15s 0.4s ease; }
+  .hamburger--elastic .ham-line::after {
+    top: 32px;
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+.hamburger--elastic.is-active .ham-line {
+  transform: translate3d(0, 9px, 0) rotate(135deg);
+  transition-delay: 0.1s; }
+  .hamburger--elastic.is-active .ham-line::before {
+    transition-delay: 0s;
+    opacity: 0; }
+  .hamburger--elastic.is-active .ham-line::after {
+    transform: translate3d(0, -30px, 0) rotate(-270deg);
+    transition-delay: 0.1s; }
+
+
+
+
+
+.side-navi {
+    opacity: .95;
+    display: block;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10%; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the side-navi */
+}
+
+/* The navigation menu links */
+.side-navi a {
+    text-align: center;
+    width: 100%;
+    padding:10% 8px 8px 32px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+.nav-item
+    {
+        font-family: 'Coda', sans-serif;
+        text-align: center;
+        display: inline-block;
+    }
+/* When you mouse over the navigation links, change their color */
+.side-navi a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.open
+    {
+        width: 80%;
+    }
+
+}
